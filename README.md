@@ -1,2 +1,2 @@
 # DelphiDeepAI-Toonify
-Consume DeepAPI Toonify using Delphi
+Consume DeepAI Toonify using Delphi
