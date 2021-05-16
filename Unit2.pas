@@ -76,7 +76,6 @@ begin
     LRestRequest.Client := LRestClient;
     LRestRequest.Execute;
     LResponse := LRestRequest.Response.JSONValue as TJSONObject;
-    // '{"id":"0e363a03-2815-4e00-bf4a-848441064c1e","output_url":"https:\/\/api.deepai.org\/job-view-file\/0e363a03-2815-4e00-bf4a-848441064c1e\/outputs\/output.jpg"}'
     LImageDownload := TDownloadURL.Create;
     LMemStream := TMemoryStream.Create();
     try
